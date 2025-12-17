@@ -1,5 +1,8 @@
 # Portfolio Website Setup Guide
 
+<img width="1470" height="833" alt="Portfolio" src="https://github.com/user-attachments/assets/75e8119e-00af-44ba-8f09-b95263565ecd" />
+
+
 ## 🚀 Quick Start
 
 1. **Install Dependencies**
