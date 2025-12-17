@@ -1,9 +1,9 @@
 import emailjs from '@emailjs/browser';
 import { ContactForm } from '../types';
 
-const SERVICE_ID = "service_hp8neoe";
-const TEMPLATE_ID = "template_6ebdyel";
-const PUBLIC_KEY = "1hDUqqi7BSlRcvQNA";
+const SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+const TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+const PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
 
 // Initialize EmailJS
 emailjs.init(PUBLIC_KEY);
