@@ -64,7 +64,6 @@ Update the following files with your information:
 ✅ Smooth scroll navigation  
 ✅ Framer Motion animations  
 ✅ EmailJS contact form  
-✅ SEO optimized  
 ✅ Modern gradient backgrounds  
 ✅ Glass morphism effects  
 ✅ Professional typography  
