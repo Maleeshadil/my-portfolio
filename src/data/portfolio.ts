@@ -187,6 +187,16 @@ export const certifications: Certification[] = [
   },
   {
     id: 6,
+    title: "Professional Practice in Software Development",
+    issuer: "University of Moratuwa",
+    year: "2023",
+    verificationUrl:
+      "https://open.uom.lk/lms/mod/customcert/verify_certificate.php",
+    credentialID: "udtMGiOnTq",
+    imageUrl: "/certificates/Professional Practice in Software Development.jpeg",
+  },
+  {
+    id: 7,
     title: "JavaScript(Basic)",
     issuer: "HackerRank",
     year: "2025",
@@ -195,7 +205,7 @@ export const certifications: Certification[] = [
     imageUrl: "/certificates/JavaScript(Basic).png",
   },
   {
-    id: 7,
+    id: 8,
     title: "React(Basic)",
     issuer: "HackerRank",
     year: "2025",
@@ -204,7 +214,7 @@ export const certifications: Certification[] = [
     imageUrl: "/certificates/React(Basic).png",
   },
   {
-    id: 8,
+    id: 9,
     title: "Postman API Fundamentals Student Expert",
     issuer: "Postman",
     year: "2025",
@@ -214,7 +224,7 @@ export const certifications: Certification[] = [
     imageUrl: "/certificates/Postman.png",
   },
   {
-    id: 9,
+    id: 10,
     title: "Front-End For-Beginners",
     issuer: "Sololearn",
     year: "2025",
