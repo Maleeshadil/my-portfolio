@@ -30,10 +30,6 @@ const skillIcons: Record<string, ComponentType<any>> = {
   Firebase: Database,
   "RESTful APIs": Server,
   "TMDB API Integration": Server,
-  Python: Brain,
-  "Scikit-learn": Brain,
-  Pandas: Brain,
-  Matplotlib: Brain,
   "Git/GitHub": GitBranch,
   "Visual Studio Code": Code2,
   "Android Studio": Smartphone,
@@ -49,7 +45,6 @@ import { fadeInUp, fadeInLeft, fadeInRight } from "../../utils/animations";
 const categories = [
   { id: "frontend", name: "Frontend", icon: Globe },
   { id: "backend", name: "Backend", icon: Server },
-  { id: "machine learning", name: "ML/AI", icon: Brain },
   { id: "tools", name: "Tools", icon: Wrench },
 ];
 

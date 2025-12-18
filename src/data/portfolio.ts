@@ -6,7 +6,7 @@ export const projects: Project[] = [
     title: "Velvet Vogue Clothing Store",
     description:
       "A multi-page online clothing store providing a seamless shopping experience for trendy casualwear and formal wear.",
-    image: "public/projects/ Velvet-Vogue.jpeg",
+    image: "/projects/Velvet-Vogue.jpeg",
     techStack: [
       "HTML",
       "CSS",
@@ -23,7 +23,7 @@ export const projects: Project[] = [
     title: "To-Do-App",
     description:
       "Full-stack web application to manage personal tasks with features for adding, updating, deleting, and tracking task status.",
-    image: "public/projects/To-Do-App.jpg",
+    image: "/projects/To-Do-App.jpg",
     techStack: ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS"],
     githubUrl: "https://github.com/Maleeshadil/To-Do-App.git",
   },
@@ -32,7 +32,7 @@ export const projects: Project[] = [
     title: "Simple Billing System ",
     description:
       "A web-based billing system that generates bill slips by entering a product ID and the quantity of products.",
-    image: "public/projects/Billing-System.png",
+    image: "/projects/Billing-System.png",
     techStack: [
       "HTML",
       "CSS",
@@ -49,7 +49,7 @@ export const projects: Project[] = [
     title: "Database system for Quiet Attic Films",
     description:
       "Windows Forms application for Quiet Attic Films, a film production company, to streamline management and storage of production details",
-    image: "public/projects/Quiet-Attic-Films.jpeg",
+    image: "/projects/Quiet-Attic-Films.jpeg",
     techStack: ["C#", "SQL Server", "Windows Forms"],
     githubUrl: "https://github.com/Maleeshadil/NewQuiteAtticFilmProduction.git",
   },
@@ -58,7 +58,7 @@ export const projects: Project[] = [
     title: "Payroll Management System",
     description:
       "Windows Forms app for a toy company to manage payroll and calculate employee salaries accurately and efficiently.",
-    image: "public/projects/Payroll-System.jpeg",
+    image: "/projects/Payroll-System.jpeg",
     techStack: ["C#", "SQL Server", "Windows Forms"],
     githubUrl:
       "https://github.com/Maleeshadil/GrifindoToysPayrollSystemWinForm.git",
@@ -68,20 +68,33 @@ export const projects: Project[] = [
     title: "Attendance Management System",
     description:
       "Built a web-based attendance system with QR code scanning to track employee attendance, leaves, and working hours.",
-    image: "public/projects/Attendance-Tracker.png",
-    techStack: ["React", "TypeScript", "Node.js", "Express", "MongoDB", "Tailwind CSS","AI Support: Amazon Q"],
+    image: "/projects/Attendance-Tracker.png",
+    techStack: [
+      "React",
+      "TypeScript",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "Tailwind CSS",
+      "AI Support: Amazon Q",
+    ],
     githubUrl:
-      "https://github.com/Maleeshadil/GrifindoToysPayrollSystemWinForm.git",
+      "https://github.com/Maleeshadil/attendance-management-system.git",
   },
   {
     id: 7,
     title: "My Personal Portfolio Website",
     description:
       "A responsive portfolio website built to showcase my projects, skills, and experience as a software developer.",
-    image: "public/projects/Portfolio.png",
-    techStack: ["React", "TypeScript","Tailwind CSS","EmailJS","Framer Motion"],
-    githubUrl:
-      "https://github.com/Maleeshadil/GrifindoToysPayrollSystemWinForm.git",
+    image: "/projects/Portfolio.png",
+    techStack: [
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "EmailJS",
+      "Framer Motion",
+    ],
+    githubUrl: "https://github.com/Maleeshadil/my-portfolio.git",
   },
 ];
 
@@ -91,9 +104,9 @@ export const skillCategories: SkillCategory[] = [
     skills: [
       { name: "HTML5/CSS3", category: "frontend", level: 90 },
       { name: "JavaScript", category: "frontend", level: 90 },
-      { name: "React", category: "frontend", level: 88 },
-      { name: "Tailwind CSS", category: "frontend", level: 85 },
-      { name: "Bootstrap", category: "frontend", level: 85 },
+      { name: "React", category: "frontend", level: 80 },
+      { name: "Tailwind CSS", category: "frontend", level: 75 },
+      { name: "Bootstrap", category: "frontend", level: 80 },
     ],
   },
   {
@@ -104,20 +117,13 @@ export const skillCategories: SkillCategory[] = [
       { name: "Laravel", category: "backend", level: 75 },
       { name: "PHP", category: "backend", level: 80 },
       { name: "Java", category: "backend", level: 65 },
-      { name: "C#", category: "backend", level: 70 },
-      { name: "MongoDB", category: "backend", level: 80 },
+      { name: "C#", category: "backend", level: 60 },
+      { name: "MongoDB", category: "backend", level: 75 },
       { name: "MySQL", category: "backend", level: 80 },
       { name: "RESTful APIs", category: "backend", level: 80 },
     ],
   },
-  {
-    title: "AI/ML",
-    skills: [
-      { name: "Python", category: "machine learning", level: 50 },
-      { name: "Pandas", category: "machine learning", level: 50},
-      { name: "Matplotlib", category: "machine learning", level: 50 },
-    ],
-  },
+
   {
     title: "Tools",
     skills: [
@@ -137,7 +143,7 @@ export const certifications: Certification[] = [
     verificationUrl:
       "https://open.uom.lk/lms/mod/customcert/verify_certificate.php",
     credentialID: "GEHSesUCk4",
-    imageUrl: "public/certificates/Web design for Beginners.jpeg",
+    imageUrl: "/certificates/Web Design for Beginners.jpeg",
   },
   {
     id: 2,
@@ -147,7 +153,7 @@ export const certifications: Certification[] = [
     verificationUrl:
       "https://open.uom.lk/lms/mod/customcert/verify_certificate.php",
     credentialID: "x3ds8FAZPT",
-    imageUrl: "public/certificates/Python for Beginners.jpeg",
+    imageUrl: "/certificates/Python for Beginners.jpeg",
   },
   {
     id: 3,
@@ -157,17 +163,7 @@ export const certifications: Certification[] = [
     verificationUrl:
       "https://open.uom.lk/lms/mod/customcert/verify_certificate.php",
     credentialID: "mIwJbrjICa",
-    imageUrl: "public/certificates/Python Programming.jpeg",
-  },
-  {
-    id: 3,
-    title: "Python for Beginners",
-    issuer: "University of Moratuwa",
-    year: "2022",
-    verificationUrl:
-      "https://open.uom.lk/lms/mod/customcert/verify_certificate.php",
-    credentialID: "mIwJbrjICa",
-    imageUrl: "public/certificates/Python for Beginners.jpeg",
+    imageUrl: "/certificates/Python Programming.jpeg",
   },
   {
     id: 4,
@@ -177,7 +173,7 @@ export const certifications: Certification[] = [
     verificationUrl:
       "https://open.uom.lk/lms/mod/customcert/verify_certificate.php",
     credentialID: "vg0PXyb3Cv",
-    imageUrl: "public/certificates/ Front End Web Development.jpeg",
+    imageUrl: "/certificates/Front End Web Development.jpeg",
   },
   {
     id: 5,
@@ -187,7 +183,7 @@ export const certifications: Certification[] = [
     verificationUrl:
       "https://open.uom.lk/lms/mod/customcert/verify_certificate.php",
     credentialID: "Tqw6PckyCT",
-    imageUrl: "public/certificates/Server side web Programming.jpeg",
+    imageUrl: "/certificates/Server side Web Programming.jpeg",
   },
   {
     id: 6,
@@ -196,7 +192,7 @@ export const certifications: Certification[] = [
     year: "2025",
     verificationUrl: "https://www.hackerrank.com/certificates/d9daa9b61cf1",
     credentialID: "",
-    imageUrl: "public/certificates/JavaScript(Basic).png",
+    imageUrl: "/certificates/JavaScript(Basic).png",
   },
   {
     id: 7,
@@ -205,7 +201,7 @@ export const certifications: Certification[] = [
     year: "2025",
     verificationUrl: "https://www.hackerrank.com/certificates/758eb4d56919",
     credentialID: "udtMGiOnTq",
-    imageUrl: "public/certificates/React(Basic).png",
+    imageUrl: "/certificates/React(Basic).png",
   },
   {
     id: 8,
@@ -215,7 +211,7 @@ export const certifications: Certification[] = [
     verificationUrl:
       "https://api.badgr.io/public/assertions/yeTFeh1YQTGV1kbJ3S5M2w",
     credentialID: "udtMGiOnTq",
-    imageUrl: "public/certificates/Postman.png",
+    imageUrl: "/certificates/Postman.png",
   },
   {
     id: 9,
@@ -224,6 +220,6 @@ export const certifications: Certification[] = [
     year: "2025",
     verificationUrl: "https://www.sololearn.com/certificates/CC-8YSLZ72H",
     credentialID: "",
-    imageUrl: "public/certificates/Front-End For-Beginners.jpeg",
+    imageUrl: "/certificates/Front-End For-Beginners.jpeg",
   },
 ];

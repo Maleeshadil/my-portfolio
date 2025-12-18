@@ -6,6 +6,7 @@ import { Certifications } from "./components/sections/Certifications";
 import { Contact } from "./components/sections/Contact";
 import { Footer } from "./components/sections/Footer";
 import { ParticleBackground } from "./components/ui/ParticleBackground";
+import { ScrollToTop } from "./components/ui/ScrollToTop";
 import "./App.css";
 import { SkillsSection } from "./components/sections/SkillsSection";
 
@@ -24,6 +25,7 @@ function App() {
         <Contact />
         <Footer />
       </div>
+      <ScrollToTop />
     </div>
   );
 }
