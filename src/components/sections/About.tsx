@@ -3,12 +3,11 @@ import { Section } from "../ui/Section";
 import { Card } from "../ui/Card";
 import { Button } from "../ui/Button";
 import { Download, GraduationCap } from "lucide-react";
-import { fadeInLeft} from "../../utils/animations";
+import { fadeInLeft } from "../../utils/animations";
 
 export const About = () => {
   const handleDownloadCV = () => {
-    // Replace with actual CV download link
-    window.open("/Maleesha_Dilshan_CV .pdf", "_blank");
+    window.open("/Maleesha_Dilshan_CV.pdf", "_blank");
   };
 
   return (
