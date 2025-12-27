@@ -232,6 +232,6 @@ export const certifications: Certification[] = [
     verificationUrl:
       "https://nextjs.org/learn/certificate?course=dashboard-app&user=132427&certId=dashboard-app-132427-1766569736960",
     credentialID: "dashboard-app",
-    imageUrl: "/certificates/Dashboard_app.png",
+    imageUrl: "/certificates/Dashborad_app.png",
   },
 ];
