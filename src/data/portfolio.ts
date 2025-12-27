@@ -193,7 +193,8 @@ export const certifications: Certification[] = [
     verificationUrl:
       "https://open.uom.lk/lms/mod/customcert/verify_certificate.php",
     credentialID: "udtMGiOnTq",
-    imageUrl: "/certificates/Professional Practice in Software Development.jpeg",
+    imageUrl:
+      "/certificates/Professional Practice in Software Development.jpeg",
   },
   {
     id: 7,
@@ -224,12 +225,13 @@ export const certifications: Certification[] = [
     imageUrl: "/certificates/Postman.png",
   },
   {
-    id: 10,
-    title: "Front-End For-Beginners",
-    issuer: "Sololearn",
+    id: 11,
+    title: "Next.js App Router Fundamentals",
+    issuer: "Vercel",
     year: "2025",
-    verificationUrl: "https://www.sololearn.com/certificates/CC-8YSLZ72H",
-    credentialID: "",
-    imageUrl: "/certificates/Front-End For-Beginners.jpeg",
+    verificationUrl:
+      "https://nextjs.org/learn/certificate?course=dashboard-app&user=132427&certId=dashboard-app-132427-1766569736960",
+    credentialID: "dashboard-app",
+    imageUrl: "/certificates/Dashboard_app.png",
   },
 ];
