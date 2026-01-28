@@ -1,4 +1,4 @@
-import { Project, SkillCategory, Certification } from "../types";
+import { Project, SkillCategory, Certification, Badge } from "../types";
 
 export const projects: Project[] = [
   {
@@ -96,6 +96,40 @@ export const projects: Project[] = [
     ],
     githubUrl: "https://github.com/Maleeshadil/my-portfolio.git",
   },
+  {
+    id: 8,
+    title: "Skills-And-Resource-Management-System",
+    description:
+      "Full-stack web app for a consultancy/tech agency to manage employee skills and match them to projects, optimizing team allocation.",
+    image: "/projects/Skill-resource-management-system.png",
+    techStack: [
+      "React",
+      "MySQL",
+      "Express",
+      "Node.js",
+      "Tailwind CSS",
+      "Framer Motion",
+    ],
+    githubUrl:
+      "https://github.com/Maleeshadil/skills-and-resource-managemnt-system.git",
+  },
+  {
+    id: 9,
+    title: "Sri Lanka Tour Net-(Client Based Team Project)",
+    description:
+      "A dynamic tourism website promoting Sri Lanka's attractions, enabling users to explore destinations, book tours, and access travel resources.",
+    image: "/projects/Sri-Lanka-Tour-Net.png",
+    techStack: [
+      "Laravel",
+      "MySQL",
+      "JavaScript",
+      "CSS",
+      "PHP",
+      "Tailwind CSS",
+      "Framer Motion",
+    ],
+    githubUrl: "https://www.srilankatournet.lk/",
+  },
 ];
 
 export const skillCategories: SkillCategory[] = [
@@ -117,6 +151,7 @@ export const skillCategories: SkillCategory[] = [
       { name: "Laravel", category: "backend", level: 75 },
       { name: "PHP", category: "backend", level: 80 },
       { name: "Java", category: "backend", level: 65 },
+      { name: "Python", category: "backend", level: 65 },
       { name: "C#", category: "backend", level: 60 },
       { name: "MongoDB", category: "backend", level: 75 },
       { name: "MySQL", category: "backend", level: 80 },
@@ -233,5 +268,48 @@ export const certifications: Certification[] = [
       "https://nextjs.org/learn/certificate?course=dashboard-app&user=132427&certId=dashboard-app-132427-1766569736960",
     credentialID: "dashboard-app",
     imageUrl: "/certificates/Dashborad_app.png",
+  },
+];
+
+export const badges: Badge[] = [
+  {
+    id: 1,
+    title: "API Learning",
+    issuer: "Nisal Gunawardhana",
+    year: "2026",
+    imageUrl: "/bagets/API-Learning-Maleesha.png",
+    description: "Completed API learning and development challenges",
+  },
+  {
+    id: 2,
+    title: "GitHub Actions - Workflow",
+    issuer: "Nisal Gunawardhana",
+    year: "2026",
+    imageUrl: "/bagets/Github-Actions-1.png",
+    description: "Mastered GitHub Actions workflow automation",
+  },
+  {
+    id: 3,
+    title: "GitHub Actions - CI/CD",
+    issuer: "Nisal Gunawardhana",
+    year: "2026",
+    imageUrl: "/bagets/Github-Actions-2.png",
+    description: "Implemented continuous integration and deployment",
+  },
+  {
+    id: 4,
+    title: "GitHub Actions - Advanced",
+    issuer: "Nisal Gunawardhana",
+    year: "2026",
+    imageUrl: "/bagets/Github-Actions-3.png",
+    description: "Advanced GitHub Actions implementation",
+  },
+  {
+    id: 5,
+    title: "GitHub Contributor",
+    issuer: "Nisal Gunawardhana",
+    year: "2025",
+    imageUrl: "/bagets/Maleesha.png",
+    description: "Active contributor to open source projects",
   },
 ];

@@ -3,6 +3,7 @@ import { Hero } from "./components/sections/Hero";
 import { About } from "./components/sections/About";
 import { Portfolio } from "./components/sections/Portfolio";
 import { Certifications } from "./components/sections/Certifications";
+import { Badges } from "./components/sections/Badges";
 import { Contact } from "./components/sections/Contact";
 import { Footer } from "./components/sections/Footer";
 import { ParticleBackground } from "./components/ui/ParticleBackground";
@@ -22,6 +23,7 @@ function App() {
         <SkillsSection />
         <Portfolio />
         <Certifications />
+        <Badges />
         <Contact />
         <Footer />
       </div>

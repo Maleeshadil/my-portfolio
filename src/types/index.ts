@@ -35,4 +35,13 @@ export interface ContactForm {
   message: string;
 }
 
+export interface Badge {
+  id: number;
+  title: string;
+  issuer: string;
+  year: string;
+  imageUrl: string;
+  description: string;
+}
+
 
