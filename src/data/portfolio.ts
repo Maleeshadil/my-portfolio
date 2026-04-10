@@ -306,6 +306,14 @@ export const badges: Badge[] = [
   },
   {
     id: 5,
+    title: "Docker 101",
+    issuer: "Nisal Gunawardhana",
+    year: "2026",
+    imageUrl: "/bagets/Docker-101.png",
+    description: "Completed docker learning and implementation challenges",
+  },
+  {
+    id: 6,
     title: "GitHub Contributor",
     issuer: "Nisal Gunawardhana",
     year: "2025",
